@@ -1,0 +1,40 @@
+:root {
+
+    /*
+    FONTS
+    sans-serif - utan fötter
+    serif - med fötter 
+    */
+
+    --font-sans-serif: 'Poppins', sans-serif; 
+    --font-serif: 'Roboto Serif', serif;
+
+    /* 
+    COLORS 
+    */
+    --color-blue: #11224D;
+    --color-green: #84BF9D;
+    --color-white: #FEFEFA;
+
+    /* GRID */
+    --grid-container:  minmax(30px, 1fr) [inner-start] minmax(0, 78rem) [inner-end] minmax(30px, 1fr);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-white);
+    font-size: 16px;
+}
+
+body,
+img {
+    margin: 0;
+    padding: 0;
+}
+
